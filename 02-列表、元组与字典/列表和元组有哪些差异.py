@@ -8,7 +8,7 @@ b = [1,2,3,4] # 列表
 b[1] = 3
 
 # 3.
-copy_a = tuple(a)
+copy_a = tuple(a)#tuple（）列表转换为元组
 print(a is copy_a)  # True
 
 copy_b = list(b)
@@ -16,5 +16,5 @@ print(b is copy_b)  # False
 
 # 4：大小不同，元组占用的空间更小（大的内存块）
 
-print(a.__sizeof__())
+print(a.__sizeof__())# ._sizeof_()占空间大小
 print(b.__sizeof__())

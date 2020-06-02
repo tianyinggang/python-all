@@ -1,3 +1,4 @@
+# itertools一个高效循环的迭代函数集合
 from itertools import islice
 gen = iter(range(10))
 print(type(gen))

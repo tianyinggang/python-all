@@ -21,8 +21,8 @@ print('x1和x2合并：',x1 | x2) # 集合之间的合并
 print('x1和x2合并：',x1.union(x2))
 
 print('x1和x2相交：', x1 & x2)  # 集合之间的相交
-print('x1和x2相交：', x1.intersection(x2))
+print('x1和x2相交：', x1.intersection(x2))#同上
 
-print(x1.difference(x2))  # 将x1中有的，在x2中也有的删除，返回值是x1的子集合
+print(x1.difference(x2))  # 将x1中有的，在x2中也有的删除，返回值是x1的子集合  返回x1-x1&x2
 
 print(x1 ^ x2)  # 刨除x1和x2共用的元素，返回值是集合并的子集
