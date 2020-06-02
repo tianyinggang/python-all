@@ -1,0 +1,10 @@
+[
+    {
+    "name":"iPhone9",
+    "price":9999,
+    "count":3000},
+    
+	{"name":"特斯拉",
+	"price":800000,
+	"count":122}
+]

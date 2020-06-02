@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>彩色按钮</title>
+</head>
+<body>
+    <script>
+
+        function onclick_color(e) {
+            document.getElementById("bgcolor").style.background = e.style.background
+        }
+    </script>
+
+  <button class="mybutton" style="background: red" onclick="onclick_color(this)">按钮1</button>
+  <button class="mybutton" style="background: blue" onclick="onclick_color(this)">按钮2</button>
+  <button class="mybutton" style="background: yellow" onclick="onclick_color(this)">按钮3</button>
+  <br>
+  <button class="mybutton" style="background: green" onclick="onclick_color(this)">按钮4</button>
+  <button class="mybutton" style="background: blueviolet" onclick="onclick_color(this)">按钮5</button>
+  <button class="mybutton" style="background: gold" onclick="onclick_color(this)">按钮6</button>
+  <p></p>
+  <div id="bgcolor" style="width: 200px; height: 200px">
+
+
+  </div>
+</body>
+</html>

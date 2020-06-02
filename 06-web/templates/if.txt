@@ -1,0 +1,23 @@
+<html>
+    <head>
+       <meta charset='UTF-8'>
+       <title>条件控制</title>
+    </head>
+    <body>
+    {% if user %}
+        Hello, {{user}}!
+    {% else %}
+        hello,Stranger!
+    {% endif %}
+    <p>
+    {% if not intValue %}
+        intValue的值是0
+    {% elif(intValue > 10) and (intValue < 20) %}
+        intValue的值在10和20之间
+    {% elif intValue > 100 %}
+       intValue的值大于100
+    {% else %}
+        intValue的值在其他的范围
+    {% endif %}
+    </body>
+</html>
