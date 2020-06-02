@@ -7,7 +7,7 @@ print('"hello" \'world\'')
 
 # 题目2：让转义符失效（3种方法： r、repr和\）
 
-print(r'Let \'s go!')
+print(r'Let \'s go!') #'r'是防止字符转义的
 
 print(repr('hello\nworld'))
 

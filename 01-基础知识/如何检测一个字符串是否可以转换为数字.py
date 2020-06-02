@@ -6,14 +6,14 @@ print(int(s1))
 
 s2 = '12345a'
 print('12345a是数字：',s2.isdigit())
-print('12345a是字母数字混合形式：',s2.isalnum())
+print('12345a是字母数字混合形式：',s2.isalnum()) #isalnum
 s3 = '12_345a'
 print('12_345a是字母数字混合形式：',s3.isalnum())
 
 print("     ".isspace())
 
 print("12.45".isdecimal())  # 检测字符串中是否为整数
-print("abc3d".isalpha())
+print("abc3d".isalpha())    #是否为英文字母
 
 # 第二题：如果将字符串转换为整数，如何做才安全
 s1 = "1234"
