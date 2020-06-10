@@ -16,5 +16,5 @@ print(b is copy_b)  # False
 
 # 4：大小不同，元组占用的空间更小（大的内存块）
 
-print(a.__sizeof__())# ._sizeof_()占空间大小
+print(a.__sizeof__())   # ._sizeof_()占空间大小
 print(b.__sizeof__())

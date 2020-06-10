@@ -7,7 +7,7 @@
 
 '''
 
-# 通过Template对象封装  $放置一些占位符，并通过substitute方法用实际的值替换这些占位符
+# 通过Template对象封装  $放置一些占位符，并通过substitute方法用实际的值替换这些占位符      (将一个string设置为模板，通过替换变量的方法，最终得到想要的string。)
 
 from string import Template
 

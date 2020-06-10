@@ -4,7 +4,7 @@
 # 以元组形式导入
 # 可变参数
 # 如果可变参数不是最后一个参数，那么为可变参数后面的形参指定参数值，必须用命名参数
-def fun1(param1, *param2,x):
+def fun1(param1, *param2,x):#tuple元组
     print('param1:',param1)
     print('param2:',param2,type(param2))
     print('x:',x)
@@ -40,13 +40,13 @@ b = [4,5,6]
 # [1,2,3,4,5,6]
 x = [a,b]
 print(x)
-x = [*a, *b]
+x = [*a, *b]#相当于a+b
 print(x)
 
 # 字典
 a = {'A':1,'B':2}
 b = {'C':3,'D':4}
 # c = {'A':1,'B':2,'C':3,'B':4}
-c = {**a,**b}
+c = {**a,**b}#相当于a+b
 print(c)
 

@@ -1,6 +1,6 @@
 # q1
 # 默认方式（传入的参数与{}一一对应）、命名参数和位置参数{2}
-
+#str.format 格式化字符串的函数
 # q2
 s1 = 'Today is {},the temperature is {} degrees.'
 

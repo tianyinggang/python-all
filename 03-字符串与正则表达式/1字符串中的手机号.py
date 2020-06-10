@@ -6,7 +6,7 @@ search：用于搜索
 '''
 
 import re
-m1 = re.match('.*python','I love python')
+m1 = re.match('.*python','I love python')#re.match 尝试从字符串的起始位置匹配一个模式，如果不是起始位置匹配成功的话，match()就返回none。
 print(m1)
 m2 = re.search('python','I love python')
 print(m2)

@@ -14,7 +14,7 @@ print(c)
 print(c == b)
 
 # 第三题：降序排列
-a.sort(reverse=True)
+a.sort(reverse=True)#reverse——相反的
 print(a)
 
 print(sorted(b,reverse=True))
